@@ -48,3 +48,21 @@ yarn create vite <프로젝트명> --template react-ts
 ## 실행
 
 yarn으로 진행했으므로 `yarn dev`
+
+## ESLint
+
+ESLint : 문법 검사 지원, 런타임 이전에 오류를 찾아주는 도구. (보통 airbnb나 google의 스타일 가이드 많이 이용)
+
+### ESLint 설치
+
+```
+yarn add eslint
+```
+
+### ESLint 세팅
+
+```
+npx eslint --init
+```
+
+[참고](https://velog.io/@kmh060020/React-vite-eslintairbnb-prettier-typescript-%EC%84%A4%EC%A0%95)
